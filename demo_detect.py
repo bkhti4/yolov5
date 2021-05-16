@@ -93,7 +93,7 @@ if __name__ == '__main__':
             times_infer.append(t1-t0)
             times_pipe.append(t2-t0)
             
-            imes_infer = times_infer[-20:]
+            times_infer = times_infer[-20:]
             times_pipe = times_pipe[-20:]
 
             ms = sum(times_infer)/len(times_infer)*1000
